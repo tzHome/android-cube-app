@@ -2,6 +2,9 @@ package in.srain.cube.demo.app;
 
 import android.app.Application;
 import android.os.Environment;
+
+import java.io.File;
+
 import in.srain.cube.Cube;
 import in.srain.cube.cache.CacheManagerFactory;
 import in.srain.cube.demo.BuildConfig;
@@ -13,11 +16,8 @@ import in.srain.cube.image.ImageLoaderFactory;
 import in.srain.cube.image.impl.DefaultImageLoadHandler;
 import in.srain.cube.request.RequestCacheManager;
 import in.srain.cube.request.RequestManager;
-import in.srain.cube.request.RequestProxyFactory;
 import in.srain.cube.util.CLog;
 import in.srain.cube.util.CubeDebug;
-
-import java.io.File;
 
 public class CubeDemoApplication extends Application {
 
